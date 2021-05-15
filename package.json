@@ -1,0 +1,55 @@
+{
+    "name": "redis-cli",
+    "version": "1.0.0",
+    "description": "A redis cli tool made using typescript",
+    "main": "index.js",
+    "scripts": {
+      "build": "tsc",
+      "test": "jest --ci --reporters=default --reporters=\"jest-junit\""
+    },
+    "keywords": [
+      "redis",
+      "cil"
+    ],
+    "bin": {
+      "rdcli": "./bin/rdcli"
+    },
+    "engines": {
+      "node": ">=8"
+    },
+    "preferGlobal": true,
+    "author": {
+      "name": "krishpranav",
+      "email": "",
+      "url": "krishpranav.github.io"
+    },
+    "contributors": [
+      {
+        "name": "krishpranav",
+        "email": ""
+      }
+    ],
+    "license": "MIT",
+    "dependencies": {
+      "bluebird": "^3.7.2",
+      "colors": "^1.4.0",
+      "core-js": "^3.10.1",
+      "redis": "^3.1.1",
+      "redis-splitargs": "^1.0.1",
+      "yargs": "^16.2.0"
+    },
+    "devDependencies": {
+      "@types/bluebird": "^3.5.33",
+      "@types/jest": "^26.0.22",
+      "@types/redis": "^2.8.28",
+      "@types/yargs": "^16.0.1",
+      "jest": "^26.6.3",
+      "jest-junit": "^12.0.0",
+      "typescript": "^4.2.4"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/krishpranav/redis-cli"
+    }
+  }
+  
