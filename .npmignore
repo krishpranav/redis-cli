@@ -1,0 +1,8 @@
+test
+.vscode
+.circleci
+coverage
+*.rdb
+junit.xml
+jest.config.js
+tsconfig.json
