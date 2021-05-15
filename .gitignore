@@ -1,0 +1,9 @@
+node_modules
+.project
+.settings/
+*.rdb
+coverage
+junit.xml
+.DS_Store
+.vscode
+lib
